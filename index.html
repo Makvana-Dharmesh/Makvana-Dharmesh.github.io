@@ -30,30 +30,63 @@
            </ul>
 
         </div>
+
     </nav>
 
     <nav id="hamburger-nav">
 
         <div class="logo">Dharmesh Makvana</div>
         <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
 
-                <div class="menu-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experince">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#media">Media</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                </div>
+            <div class="hamburger-icon" onclick="toggleMenu()">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <div class="menu-links">
+
+             <li><a href="#about">About</a></li>
+             <li><a href="#experince">Experience</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#media">Media</a></li>
+             <li><a href="#blog">Blog</a></li>
+             <li><a href="#contact">Contact</a></li>
+
+            </div>
+
         </div>
 
 
     </nav>
+
+    <section id= "profile" >
+
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Dharmesh Makvana profile picture">
+        </div>
+
+        <div class="section_text">
+
+            <p class="section_text__p1">Hello, I'm</p>
+            <h1 class="title">Dharmesh Makvana</h1>
+            <p class="section_text__p2">Robotics Enthusiast</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume_Dharmesh_Makvana.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="window.location.href='./#contact'">Contact Info</button>
+            </div>
+            
+            <div id = "socials-container">
+             <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href ='https://www.linkedin.com/in/dharmesh-makvana/'">
+             <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href ='https://github.com/Makvana-Dharmesh'">
+            </div>
+
+        </div>
+
+    </section>
 
     <script src="script.js"></script>
 
