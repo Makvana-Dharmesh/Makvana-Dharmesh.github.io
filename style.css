@@ -282,8 +282,7 @@ section {
 
 .about-containers {
   gap: 4rem;
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .about-details-container {
@@ -329,7 +328,7 @@ section {
 }
 
 .text-container{
-  line-height: 1.9rem;
+  line-height: 1.8rem;
 }
 
 
@@ -410,38 +409,58 @@ article.icon {
 }
 
 
+/* MEDIA */
+
+#media{
+  position: relative;
+}
+
+
+
+/* BLOG */
+
+#blog{
+  position: relative;
+}
+
+
+
 /* CONTACT */
 
 #contact{
   display: flex;
   justify-content: center;
   flex-direction:column ;
-  height: 70vh;
-
+  height: 75vh;
 }
 
-.contact-info-upper-container{
-  display:flex;
-  justify-content: center;
+ .all-contact-info-container{
+  margin: 1rem;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
-  margin: 2rem auto;
-  padding: 0.5rem;
+}
+
+.contact-info-upper-container{
+  justify-content: center;
+  display: flex;
+  margin-bottom: -1rem;
+}
+.contact-info-lower-container{
+  justify-content: center;
+  display: flex;
 }
 
 .contact-info-container{
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
-  margin: 1rem;
+  margin:2rem;
+  font-size: larger;
+
 }
 
-.contact-info-container{
-  font-size: larger;
-}
 
 .contact-icon{
   cursor: default;
