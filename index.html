@@ -1,465 +1,262 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Dharmesh Makvana - Robotics Enthusiast, Engineer, and Innovator.">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    
 </head>
 
 <body>
-
-  <nav id="desktop-nav">
-
+    <nav id="desktop-nav">
         <div class="logo">Dharmesh Makvana</div>
-
         <div>
-
-           <ul class="nav-links">
-             <li><a href="#about">About</a></li>
-             <li><a href="#experience">Experience</a></li>
-             <li><a href="#projects">Projects</a></li>
-             <li><a href="#media">Media</a></li>
-             <li><a href="#blog">Blog</a></li>
-             <li><a href="#contact">Contact</a></li>
-           </ul>
-
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-
     </nav>
 
     <nav id="hamburger-nav">
-
         <div class="logo">Dharmesh Makvana</div>
         <div class="hamburger-menu">
-
             <div class="hamburger-icon" onclick="toggleMenu()">
-
                 <span></span>
                 <span></span>
                 <span></span>
-
             </div>
-
-            <div class="menu-links">
-
-             <li><a href="#about">About</a></li>
-             <li><a href="#experience">Experience</a></li>
-             <li><a href="#projects">Projects</a></li>
-             <li><a href="#media">Media</a></li>
-             <li><a href="#blog">Blog</a></li>
-             <li><a href="#contact">Contact</a></li>
-
-            </div>
-
+            <ul class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-
-
     </nav>
 
-    <section id= "profile" >
+    <!-- Sections Start -->
 
+    <!-- Profile Section -->
+    <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Dharmesh Makvana profile picture">
+            <img src="./assets/profile-pic.png" alt="Portrait of Dharmesh Makvana">
         </div>
-
         <div class="section_text">
             <p class="section_text_p1">Hello, I'm</p>
             <h1 class="title">Dharmesh Makvana</h1>
             <p class="section_text__p2">Robotics Enthusiast</p>
-
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Resume_Dharmesh_Makvana.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="window.location.href='./#contact'">Contact Info</button>
             </div>
-            
-            <div id = "socials-container">
-             <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href ='https://www.linkedin.com/in/dharmesh-makvana/'">
-             <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href ='https://github.com/Makvana-Dharmesh'">
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="window.open('https://www.linkedin.com/in/dharmesh-makvana/', '_blank')">
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="window.open('https://github.com/Makvana-Dharmesh', '_blank')">
             </div>
-
         </div>
-
-
     </section>
 
-    <section id = about>
-
-        <p class = "section_text_p1">Get To Know More</p>
-        <h1 class = "title">About Me</h1>
-
-        <div class = "section-container">
-
+    <!-- About Section -->
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic-1.jpg" alt="profile picture" class="about-pic">
+                <img src="./assets/about-pic-1.jpg" alt="About profile picture" class="about-pic">
             </div>
-
             <div class="about-details-container">
-
-                <div class ="about-containers">
-
-                    <div class ="details-container">
-                     <img src="./assets/experience.png" alt="Experience icon" class="icon">
-                     <h3>Experience</h3>
-                     <p>2+ years <br> Robotics Enthusiast </p>
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years<br>Robotics Enthusiast</p>
                     </div>
-
-                    <div class = "details-container">
-                     <img src="./assets/education.png" alt="education" class="icon">
-                     <h3>Education</h3>
-                     <p> B.E Mechnical Engineering </p>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.E Mechanical Engineering</p>
                     </div>
-
                 </div>
-
                 <div class="text-container">
-
                     <p>
-                          I'm a former design engineer who found a true passion in robotics. I'm the architect who brings machines to life through precise design and intelligent programming. It feels like a form of modern magic, where I serve as the magician animating lifeless hardware through logic and innovation.
-                          
-                        <br>These days, I have the opportunity to work directly with the technology I’m most passionate about designing, building, and programming robots in hands-on, real-world applications.
-
-                        <br> Outside of that, I’m a bit of an explorer. I love checking out new places, trying different foods, and getting a feel for different cultures. I also make time for creativity and self-reflection—and when it’s time to relax, there’s a good chance I’m watching anime. It's my favorite source of wild ideas and storytelling that pushes the limits.
-
-
+                        I'm a former design engineer who found a true passion in robotics. I'm the architect who brings machines to life through precise design and intelligent programming. It feels like a form of modern magic, where I serve as the magician animating lifeless hardware through logic and innovation.
+                        <br>These days, I work directly with the technology I’m most passionate about—designing, building, and programming robots in hands-on, real-world applications.
+                        <br>Outside of that, I love exploring new places, trying different foods, and understanding different cultures. I also enjoy creativity, self-reflection, and watching anime—my favorite source of wild ideas and storytelling.
                     </p>
-
                 </div>
-
             </div>
-
         </div>
-
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
-
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
 
-    <section id ="experience">
-
+    <!-- Experience Section -->
+    <section id="experience">
         <p class="section_text_p1">Explore My</p>
-        <h1 class= "title">Experience</h1>
-
+        <h1 class="title">Experience</h1>
         <div class="experience-details-container">
-
             <div class="about-containers">
-
                 <div class="details-container">
-                 
-                    <h2 class="experience-sub-title"> Robotics Enthusiast</h2>
-
+                    <h2 class="experience-sub-title">Robotics Enthusiast</h2>
                     <div class="article-container">
-
-                       <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>CAD/CAM</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>ROS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Embedded System</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>MATLAB & Simulink</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>C</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>C++</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Python</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>3D Printing</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>PCB Manufacturing</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>AI/ML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>CAD/CAM</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>ROS</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>Embedded System</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>MATLAB & Simulink</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>C</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>C++</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>Python</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>3D Printing</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>PCB Manufacturing</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" alt="check"> <div><h3>AI/ML</h3><p>Experienced</p></div></article>
                     </div>
-
-
-
                 </div>
-
             </div>
-
-        <div>
-
-           
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-
-
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
 
-    <section id = "projects">
-
-        <p class="section_text_p1">Browse My Recent </p>
+    <!-- Projects Section -->
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-
         <div class="experience-details-container">
-
             <div class="about-containers">
-                    
                 <div class="details-container colour-container">
-
                     <div class="article-container">
                         <img src="./assets/project-1.png" alt="Project 1" class="project-img">
                     </div>
-
-                    <h2 class = "experience-sub-title project-title">Project One</h2>
-
+                    <h2 class="experience-sub-title project-title">Project One</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href ='https://github.com/'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href ='https://YouTube.com/'">YouTube Video</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://YouTube.com/'">YouTube Video</button>
                     </div>
-                    
                 </div>
-
-                <div class="details-container colour container">
-
+                <div class="details-container colour-container">
                     <div class="article-container">
                         <img src="./assets/project-2.png" alt="Project 2" class="project-img">
                     </div>
-
-                    <h2 class = "experience-sub-title project-title">Project Two</h2>
-
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href ='https://github.com/'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href ='https://YouTube.com/'">YouTube Video</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://YouTube.com/'">YouTube Video</button>
                     </div>
-                    
                 </div>
-
-                <div class="details-container colour container">
-
+                <div class="details-container colour-container">
                     <div class="article-container">
                         <img src="./assets/project-3.png" alt="Project 3" class="project-img">
                     </div>
-
-                    <h2 class = "experience-sub-title project-title">Project Three</h2>
-
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href ='https://github.com/'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href ='https://YouTube.com/'">YouTube Video</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://YouTube.com/'">YouTube Video</button>
                     </div>
-                    
-
                 </div>
-
-
             </div>
-
-
         </div>
-
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#media'" />
-
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#media'">
     </section>
 
-
-    <section id ="media">
+    <!-- Media Section -->
+    <section id="media">
         <p class="section_text_p1">Highlights From My</p>
         <h1 class="title">Media</h1>
-
-
         <div class="experience-details-container">
-
             <div class="about-containers">
-                    
-                <div class="details-container colour container">
-
+                <div class="details-container colour-container">
                     <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                        <img src="./assets/project-1.png" alt="Media 1" class="project-img">
                     </div>
-
-                    <p><b>Seminar At IISC </b></p>
-
+                    <p><b>Seminar At IISC</b></p>
                 </div>
-
-                <div class="details-container colour container">
-
+                <div class="details-container colour-container">
                     <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                        <img src="./assets/project-2.png" alt="Media 2" class="project-img">
                     </div>
-
-                    <p><b>Seminar At IISC </b></p>
-
+                    <p><b>Featured Event</b></p>
                 </div>
-                
-                <div class="details-container colour container">
-
+                <div class="details-container colour-container">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+                        <img src="./assets/project-3.png" alt="Media 3" class="project-img">
                     </div>
-
-                    <p><b>Seminar At IISC </b></p>
-
+                    <p><b>Research Showcase</b></p>
                 </div>
-
-
             </div>
-
         </div>
-
-
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#blog'" />
-
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#blog'">
     </section>
 
+    <!-- Blog Section -->
     <section id="blog">
         <p class="section_text_p1">Insights From the</p>
         <h1 class="title">Blog</h1>
-
         <div class="experience-details-container">
-
             <div class="about-containers">
-                    
                 <div class="details-container colour-container">
-
                     <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                        <img src="./assets/project-1.png" alt="Blog 1" class="project-img">
                     </div>
-
-                    <button class="btn btn-color-2 project-btn" onclick="location.href ='https://github.com/'">Blog One</button>
-                    
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Blog One</button>
                 </div>
-
-                <div class="details-container colour container">
-
+                <div class="details-container colour-container">
                     <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                        <img src="./assets/project-2.png" alt="Blog 2" class="project-img">
                     </div>
-
-                    <button class="btn btn-color-2 project-btn" onclick="location.href ='https://github.com/'">Blog two</button>
-
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Blog Two</button>
                 </div>
-
-                <div class="details-container colour container">
-
+                <div class="details-container colour-container">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+                        <img src="./assets/project-3.png" alt="Blog 3" class="project-img">
                     </div>
-                    
-                    <button class="btn btn-color-2 project-btn" onclick="location.href ='https://github.com/'">Blog Three</button> 
-
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Blog Three</button>
                 </div>
-
-
             </div>
-
         </div>
-
-      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
-
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
 
-      
+    <!-- Contact Section -->
     <section id="contact">
-
-      <p class="section_text_p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
         <div class="all-contact-info-container">
-            
             <div class="contact-info-upper-container">
-
                 <div class="contact-info-container">
-                    <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"  />
-                    <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                    <p><a href="https://www.linkedin.com/in/dharmesh-makvana/" target="_blank">LinkedIn</a></p>
                 </div>
-
                 <div class="contact-info-container">
                     <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                    <p><a href="mailto:examplemail@gmail.com">buildwithdharmesh@gmail.com</a></p>
+                    <p><a href="mailto:buildwithdharmesh@gmail.com">buildwithdharmesh@gmail.com</a></p>
                 </div>
-
                 <div class="contact-info-container">
                     <img src="./assets/discord.png" alt="Discord icon" class="icon contact-icon" />
-                    <p><a href="https://discord.com/users/1381646359530176613">Discord</a></p>
+                    <p><a href="https://discord.com/users/1381646359530176613" target="_blank">Discord</a></p>
                 </div>
-
             </div>
-
- 
             <div class="contact-info-lower-container">
-
                 <div class="contact-info-container">
                     <img src="./assets/Google-form.png" alt="Google Form" class="icon contact-icon">
-                    <p><a href="https://forms.gle/ZynGPi6fi9enjUjX6" target="_blank" class="contact-button"> Let’s connect!</a></p>
+                    <p><a href="https://forms.gle/ZynGPi6fi9enjUjX6" target="_blank" class="contact-button">Let’s connect!</a></p>
                 </div>
-
             </div>
-
-
         </div>
-
     </section>
 
+    <!-- Sections End -->
+
     <footer>
-
-      <nav>
+        <nav>
             <div class="nav-links-container">
-
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
@@ -468,19 +265,12 @@
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                
             </div>
-      </nav>
-
-      <p>Copyright &#169; 2025 Dharmesh Makvana. All Rights Reserved.</p>
-
+        </nav>
+        <p>&copy; 2025 Dharmesh Makvana. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
-
-
 </body>
 
 </html>
-
-
